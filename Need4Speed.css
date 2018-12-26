@@ -1,0 +1,30 @@
+canvas {
+	border: 1px solid #d3d3d3;
+	background-color: #f1f1f1;
+}
+.console {
+	width: 480px;
+	display: grid;
+	grid-template-columns: 1fr 1fr; 
+	justify-content: center;
+}
+.row1, .row4 {
+	grid-column: 1/3;
+}
+.row { 
+}
+button {	
+	width: 100px;
+	padding: 5px 10px;
+	font-size: 20px;
+	font-weight: bold;
+	margin: auto;
+	display: block;
+	background-color: #4CAF50;
+	border-radius: 8px;
+	transition-duration: 0.5s;
+}
+button:hover {
+	background-color: #f44336;
+	color: white;
+}
